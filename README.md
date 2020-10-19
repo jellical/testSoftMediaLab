@@ -1,5 +1,10 @@
 ## Task
-Recreate salary form from the example picture using React, Redux-Form, Bootstrap, Typescript, Sass
+Recreate salary form from the picture (below) using React, Redux-Form, Bootstrap, Typescript, Sass
+
+![Test picture](https://testsoftmedialab.s3.eu-west-2.amazonaws.com/testTask.png)
+
+Deployed version is abailable on:
+[S3 bucket here](http://testsoftmedialab.s3-website.eu-west-2.amazonaws.com)
 
 ## Available Scripts
 

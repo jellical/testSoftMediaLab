@@ -1,0 +1,10 @@
+$theme-colors: (
+  "primary": #ffa500
+);
+
+$indent: 0.8rem;
+
+@import "node_modules/bootstrap/scss/bootstrap";
+
+@import "salaryForm";
+

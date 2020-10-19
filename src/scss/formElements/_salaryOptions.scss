@@ -1,0 +1,75 @@
+.custom-radio .custom-control-input:checked~.custom-control-label::before  {
+  background-color: $black;
+  border-color: $white;
+  border: 4px;
+}
+
+.custom-radio .custom-control-input:focus ~ .custom-control-label::before {
+  box-shadow: 0 0 0 1px #fff, 0 0 0 0.1rem $black;
+}
+
+.custom-radio .custom-control-input:checked~.custom-control-label::after  {
+  background-color: $black;
+  background-image: none;
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 3px white;
+}
+
+.custom-radio .custom-control-input:focus ~ .custom-control-label::after {
+  box-shadow: 0 0 0 1px #fff, 0 0 0 0.1rem $black;
+}
+
+.custom-radio .custom-control-label {
+  font-weight: bold;
+}
+
+
+.custom-radio .btn-custom {
+  font-weight: bold;
+  margin-left: 10px;
+  margin-bottom: 3px;
+  color: $gray-600;
+  background-color: $white;
+  border-color: $gray-600;
+  border-radius: 50%;
+  height: 22px;
+  width: 22px;
+  padding: 0;
+  font-size: 0.8rem;
+}
+
+
+.custom-radio .btn-custom:hover {
+  color: #5E6CAB;
+  border-color: #5E6CAB;
+}
+
+.custom-radio .btn-custom:focus, .btn-custom.focus {
+  box-shadow: none
+}
+
+.custom-radio .btn-custom:not(:disabled):not(.disabled):active, .btn-custom:not(:disabled):not(.disabled).active,
+.show > .btn-custom.dropdown-toggle {
+  color: #fff;
+  background-color: #5E6CAB;
+  border-color: #5E6CAB;
+}
+
+.custom-radio .btn-custom:not(:disabled):not(.disabled):active:focus, .btn-custom:not(:disabled):not(.disabled).active:focus,
+.show > .btn-custom.dropdown-toggle:focus {
+  box-shadow: none
+}
+
+.tooltip-custom > .tooltip-inner{
+  background-color: #5E6CAB;
+  text-align: left;
+  font-size: 12px;
+  padding: 15px;
+  border-radius: 0;
+}
+
+.tooltip-custom > .arrow::before{
+  border-bottom-color: #5E6CAB;
+}
+
+.tooltip.show{opacity:1;}

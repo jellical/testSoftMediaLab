@@ -1,0 +1,45 @@
+.switch-custom-group {
+  font-size: 12px;
+}
+
+.switch-custom-group {
+  .left-label {
+    padding-right: 10px;
+  }
+
+  .is-active {
+    font-weight: bold;
+    color: $black;
+  }
+
+  .switch-label {
+    padding-top: 5px;
+  }
+}
+
+.custom-switch {
+  .custom-control-label::after {
+    transform: scale(1.4);
+    background-color: $white;
+  }
+
+  .custom-control-label::before {
+    transform: scale(1.2);
+    background-color: $gray-400;
+    border: none;
+  }
+
+  .custom-control-input:checked ~ .custom-control-label::after {
+    transform: translateX(0.75rem) scale(1.4);
+
+  }
+
+  .custom-control-input:checked ~ .custom-control-label::before {
+    transform: scale(1.2);
+  }
+
+
+  .custom-control-input:focus ~ .custom-control-label::before {
+    box-shadow: 0 0 0 0.2rem $gray-100
+  }
+}
